@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bt_font_color">#223962</color>
+    <color name="font_secondary">#FF000000</color>
+    <color name="font_primary">#FFFFFFFF</color>
+    <color name="bg_primary">#27B0DC</color>
+</resources>
+

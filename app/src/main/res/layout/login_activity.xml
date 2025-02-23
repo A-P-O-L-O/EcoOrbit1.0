@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary"
+    tools:context="pq.logica.MainActivity">
+
+
+    <EditText
+        android:id="@+id/ETKeyLogin"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="32dp"
+        android:autofillHints="password"
+        android:background="@drawable/rounded_input"
+        android:fontFamily="@font/adlam_display"
+        android:hint="@string/password"
+        android:inputType="text"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/BTNLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/IVKeyLogin" />
+
+    <ImageView
+        android:id="@+id/logoLgoin"
+        android:layout_width="121dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameAppLogin"
+        android:layout_width="214dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/font_primary"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toEndOf="@+id/logoLgoin"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:fontFamily="@font/adlam_display" />
+
+
+    <TextView
+        android:id="@+id/TVParagraphRegisterHome"
+        android:layout_width="139dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/adlam_display"
+        android:text="@string/bt_register"
+        android:textAlignment="center"
+        android:textColor="@color/font_primary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNLoginWithGoogle"
+        app:layout_constraintVertical_bias="0.596"
+        tools:fontFamily="@font/adlam_display" />
+
+    <TextView
+        android:id="@+id/paragraphLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/adlam_display"
+        android:text="@string/login_paragraph"
+        android:textAlignment="center"
+        android:textColor="@color/bt_font_color"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVRecoverPassLogin"
+        android:layout_width="256dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/adlam_display"
+        android:text="@string/bt_recover_pass"
+        android:textAlignment="center"
+        android:textColor="@color/bt_font_color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/BTNLoginWithGoogle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNLogin"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/TVParagraphNotAccount"
+        android:layout_width="231dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="150dp"
+        android:fontFamily="@font/adlam_display"
+        android:text="@string/bt_not_account"
+        android:textAlignment="center"
+        android:textColor="@color/bt_font_color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/TVParagraphRegisterHome"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNLoginWithGoogle"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <EditText
+        android:id="@+id/ETUserLogin"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="username"
+        android:background="@drawable/rounded_input"
+        android:fontFamily="@font/adlam_display"
+        android:hint="@string/user"
+        android:inputType="text"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/ETKeyLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paragraphLogin"
+        app:layout_constraintVertical_bias="0.426" />
+
+    <Button
+        android:id="@+id/BTNLogin"
+        android:layout_width="375dp"
+        android:layout_height="54dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/adlam_display"
+        android:importantForAccessibility="yes"
+        android:text="@string/bt_login"
+        android:textColor="@color/bt_font_color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63" />
+
+    <Button
+        android:id="@+id/BTNLoginWithGoogle"
+        android:layout_width="375dp"
+        android:layout_height="54dp"
+        android:background="@drawable/rounded_button"
+        android:drawableStart="@drawable/google_icon"
+        android:fontFamily="@font/adlam_display"
+        android:importantForAccessibility="yes"
+        android:text="@string/login_google"
+        android:textColor="@color/bt_font_color"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <ImageView
+        android:id="@+id/IVPeopleLogin"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:src="@drawable/people"
+        app:layout_constraintBottom_toTopOf="@+id/IVKeyLogin"
+        app:layout_constraintEnd_toStartOf="@+id/ETUserLogin"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paragraphLogin"
+        app:layout_constraintVertical_bias="0.525" />
+
+    <ImageView
+        android:id="@+id/IVKeyLogin"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/key"
+        app:layout_constraintBottom_toTopOf="@+id/BTNLogin"
+        app:layout_constraintEnd_toStartOf="@+id/ETUserLogin"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
