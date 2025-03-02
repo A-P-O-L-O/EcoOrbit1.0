@@ -1,5 +1,6 @@
 package pq.logica
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -47,6 +48,7 @@ class RecoverPassActivity : AppCompatActivity() {
                 textViewSuccess.visibility = View.VISIBLE
                 Toast.makeText(this, "Correo enviado a $email", Toast.LENGTH_SHORT).show()
             }, 2000)
+            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 
