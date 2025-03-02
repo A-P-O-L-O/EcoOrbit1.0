@@ -47,8 +47,9 @@ class RecoverPassActivity : AppCompatActivity() {
                 progressBar.visibility = View.GONE
                 textViewSuccess.visibility = View.VISIBLE
                 Toast.makeText(this, "Correo enviado a $email", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, LoginActivity::class.java))
+                finish()
             }, 2000)
-            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 
