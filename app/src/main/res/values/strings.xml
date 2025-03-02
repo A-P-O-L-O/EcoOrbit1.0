@@ -11,4 +11,31 @@
     <string name="login_google">Inicia sesión con Google</string>
     <string name="user">Ingresa tu usuario</string>
     <string name="password">Ingresa tu contraseña</string>
+
+    <!-- Textos para la pantalla de registro -->
+    <string name="register_message">Regístrate para comenzar tu viaje con EcoOrbit.</string>
+    <string name="placeholder_name">Ingresa tu nombre</string>
+    <string name="placeholder_lastname">Ingresa tu apellido</string>
+    <string name="placeholder_email">Ingresa tu correo electrónico</string>
+    <string name="placeholder_phone">Ingresa tu teléfono</string>
+    <string name="placeholder_password">Crea una contraseña</string>
+    <string name="placeholder_repeat_password">Repite tu contraseña</string>
+    <string name="terms_and_conditions">Acepto los términos y condiciones</string>
+    <string name="have_account">¿Ya tienes una cuenta?</string>
+    <string name="have_account_action">Inicia sesión</string>
+
+
+    <!-- Textos para la pantalla de recuperación de contraseña -->
+    <string name="password_recovery_title">Recuperación de Contraseña</string>
+    <string name="password_recovery_message">Ingresa tu correo electrónico para recibir un enlace de recuperación de contraseña.</string>
+    <string name="bt_send">Enviar</string>
+
+    <!-- Sección de Información del Perfil -->
+    <string name="label_first_name">Nombres:</string>
+    <string name="label_last_name">Apellidos:</string>
+    <string name="label_email">Correo:</string>
+    <string name="label_phone">Teléfono:</string>
+    <string name="edit_btn">Editar perfil</string>
+
 </resources>
+

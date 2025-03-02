@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar" />
-    <style name="Theme.TALLER2" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <!-- Tema para la pantalla de carga -->
+    <style name="Theme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/adlam_display</item>
+    </style>
+
+    <!-- Tema principal de la aplicación -->
+    <style name="Theme.TALLER2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/adlam_display</item>
+    </style>
+
 </resources>

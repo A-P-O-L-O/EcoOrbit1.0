@@ -84,6 +84,7 @@
         android:textAlignment="center"
         android:textColor="@color/bt_font_color"
         android:textSize="24sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
