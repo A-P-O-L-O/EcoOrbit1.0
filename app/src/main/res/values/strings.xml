@@ -1,18 +1,17 @@
 <resources>
-    <string name="app_name">EcoOrbit</string>
+    <string name="app_name">ToolsSolution</string>
     <string name="mi_name">Elias David Jaramillo Flórez</string>
     <string name="bt_start">Comienza</string>
     <string name="bt_login">Iniciar sesión</string>
     <string name="bt_register">Regístrate</string>
     <string name="bt_not_account">¿No tienes cuenta?</string>
     <string name="bt_recover_pass">Recuperar contraseña</string>
-    <string name="start_paragraph">Inicia una nueva aventura con EcoOrbit y descubre una nueva forma de ver el mundo.</string>
+    <string name="start_paragraph">Inicia una nueva aventura con ToolsSolution y descubre una nueva forma de ver el mundo.</string>
     <string name="login_paragraph">La aventura está por iniciar, por favor, inicia sesión.</string>
     <string name="login_google">Inicia sesión con Google</string>
     <string name="user">Ingresa tu usuario</string>
     <string name="password">Ingresa tu contraseña</string>
 
-    <!-- Textos para la pantalla de registro -->
     <string name="register_message">Regístrate para comenzar tu viaje con EcoOrbit.</string>
     <string name="placeholder_name">Ingresa tu nombre</string>
     <string name="placeholder_lastname">Ingresa tu apellido</string>
@@ -25,12 +24,10 @@
     <string name="have_account_action">Inicia sesión</string>
 
 
-    <!-- Textos para la pantalla de recuperación de contraseña -->
     <string name="password_recovery_title">Recuperación de Contraseña</string>
     <string name="password_recovery_message">Ingresa tu correo electrónico para recibir un enlace de recuperación de contraseña.</string>
     <string name="bt_send">Enviar</string>
 
-    <!-- Sección de Información del Perfil -->
     <string name="label_first_name">Nombres:</string>
     <string name="label_last_name">Apellidos:</string>
     <string name="label_email">Correo:</string>

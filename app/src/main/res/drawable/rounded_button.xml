@@ -9,7 +9,7 @@
             <corners android:radius="25dp" />
 
             <!-- Borde oscuro -->
-            <stroke android:width="2dp" android:color="@color/bt_font_color" />
+            <stroke android:width="2dp" android:color="@color/negro" />
 
             <!-- Margen interno -->
             <padding android:left="16dp"

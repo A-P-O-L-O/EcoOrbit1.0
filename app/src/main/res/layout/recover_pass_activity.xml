@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_primary"
+    android:background="@color/negro"
     android:padding="20dp">
 
     <LinearLayout
@@ -27,7 +27,7 @@
                 android:layout_width="210dp"
                 android:layout_height="240dp"
                 android:layout_marginBottom="16dp"
-                android:src="@drawable/logo" />
+                android:src="@drawable/logonew" />
 
             <!-- Mensaje instructivo -->
             <TextView
@@ -50,7 +50,7 @@
             android:hint="@string/placeholder_email"
             android:background="@drawable/rounded_input"
             android:padding="12dp"
-            android:textColor="@color/font_secondary"
+            android:textColor="@color/negro"
             android:inputType="textEmailAddress"
             android:layout_marginBottom="30dp" />
 
@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="@string/bt_recover_pass"
-            android:textColor="@color/bt_font_color"
+            android:textColor="@color/negro"
             android:background="@drawable/rounded_button"
             android:layout_marginTop="30dp" />
 

@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_primary"
+    android:background="@color/negro"
     android:padding="20dp">
 
     <LinearLayout
@@ -22,7 +22,7 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginBottom="24dp"
-            android:src="@drawable/logo"
+            android:src="@drawable/logonew"
             android:padding="8dp" />
 
         <!-- Sección de Información del Perfil -->
@@ -50,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/label_first_name"
                     android:textSize="16sp"
-                    android:textColor="@color/font_secondary"
+                    android:textColor="@color/blanco"
                     android:textStyle="bold" />
 
                 <TextView
@@ -58,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:textColor="@color/font_secondary"
+                    android:textColor="@color/blanco"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -78,7 +78,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/label_last_name"
                     android:textSize="16sp"
-                    android:textColor="@color/font_secondary"
+                    android:textColor="@color/blanco"
                     android:textStyle="bold" />
 
                 <TextView
@@ -86,7 +86,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:textColor="@color/font_secondary"
+                    android:textColor="@color/blanco"
                     android:textStyle="bold"/>
             </LinearLayout>
 
@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/label_email"
                     android:textSize="16sp"
-                    android:textColor="@color/font_secondary"
+                    android:textColor="@color/blanco"
                     android:textStyle="bold" />
 
                 <TextView
@@ -114,7 +114,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:textColor="@color/font_secondary"
+                    android:textColor="@color/blanco"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -134,7 +134,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/label_phone"
                     android:textSize="16sp"
-                    android:textColor="@color/font_secondary"
+                    android:textColor="@color/blanco"
                     android:textStyle="bold" />
 
                 <TextView
@@ -142,7 +142,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:textColor="@color/font_secondary"
+                    android:textColor="@color/blanco"
                     android:textStyle="bold"/>
             </LinearLayout>
 
@@ -154,7 +154,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="@string/edit_btn"
-            android:textColor="@color/bt_font_color"
+            android:textColor="@color/negro"
             android:background="@drawable/rounded_button"
             android:layout_marginTop="20dp" />
     </LinearLayout>

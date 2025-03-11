@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class SplashActivity : AppCompatActivity() {
 
-    private val splastTime:Long = 3000
+    private val splastTime:Long = 1500
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

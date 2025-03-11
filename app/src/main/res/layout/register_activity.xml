@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_primary">
+    android:background="@color/negro">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
                 android:id="@+id/logoImageView"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/logo" />
+                android:src="@drawable/logonew" />
 
             <TextView
                 android:id="@+id/appNameTextView"
@@ -59,7 +59,7 @@
             android:fontFamily="@font/adlam_display"
             android:hint="@string/placeholder_name"
             android:padding="12dp"
-            android:textColor="@color/font_secondary" />
+            android:textColor="@color/negro" />
 
         <EditText
             android:id="@+id/inputLastName"
@@ -70,7 +70,7 @@
             android:fontFamily="@font/adlam_display"
             android:hint="@string/placeholder_lastname"
             android:padding="12dp"
-            android:textColor="@color/font_secondary" />
+            android:textColor="@color/negro" />
 
         <EditText
             android:id="@+id/inputEmail"
@@ -82,7 +82,7 @@
             android:hint="@string/placeholder_email"
             android:inputType="textEmailAddress"
             android:padding="12dp"
-            android:textColor="@color/font_secondary" />
+            android:textColor="@color/negro" />
 
         <EditText
             android:id="@+id/inputPhone"
@@ -94,7 +94,7 @@
             android:hint="@string/placeholder_phone"
             android:inputType="phone"
             android:padding="12dp"
-            android:textColor="@color/font_secondary" />
+            android:textColor="@color/negro" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -113,7 +113,7 @@
                 android:fontFamily="@font/adlam_display"
                 android:hint="@string/placeholder_password"
                 android:inputType="textPassword"
-                android:textColor="@color/font_secondary"
+                android:textColor="@color/negro"
                 android:gravity="center_vertical" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -136,7 +136,7 @@
                 android:hint="@string/placeholder_repeat_password"
                 android:inputType="textPassword"
                 android:gravity="center_vertical"
-                android:textColor="@color/font_secondary" />
+                android:textColor="@color/negro" />
         </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -158,7 +158,7 @@
             android:background="@drawable/rounded_button"
             android:fontFamily="@font/adlam_display"
             android:text="@string/bt_register"
-            android:textColor="@color/bt_font_color" />
+            android:textColor="@color/negro" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -173,7 +173,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/adlam_display"
                 android:text="@string/have_account"
-                android:textColor="@color/font_secondary"
+                android:textColor="@color/negro"
                 android:textSize="16sp" />
 
             <TextView
